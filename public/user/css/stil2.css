@@ -1,0 +1,534 @@
+body {
+	background-image:url("../images/Background1.png");
+	margin:auto;
+}
+.header7{
+	width: 100%;
+	height: 55px;
+	background: rgb(33,73,126);
+}
+.header6{
+	width: 100%;
+	height: 270px;
+	background: rgb(72,124,197);
+}
+.ZvanicniSajt{
+	margin-right: 100px;
+}
+@media (max-width:767px) {
+	body{
+		background-image: none;
+	}
+}
+@media (max-width:567px) {
+	.row .col-md-6 .logo123 .w3{
+    padding: 6px 10px;
+    font-size: 12px;
+}
+	.social-icon .social{
+		width: 35px;
+		height: 35px;
+	}
+	.font21{
+		display: none;
+	}
+}
+@media (max-width:767px) {
+	.nav .navbar-nav::before{
+		content: "Read this -";
+		background-color: yellow;
+		color: red;
+		font-weight: bold;
+	}
+	.navbar .navbar-collapse{
+	text-align: center;
+	margin-left: -200px;
+	}
+	.row .col-md-3 .vesti1{
+		display:none;
+	}
+	.row .col-md-3 .vestivesti{
+		display:none;
+	}
+	.header {
+		display: none;
+	}
+	.header6{
+		display: none;
+	}
+	.row .col-md-6 .social-icon{
+		margin-left: 53px;
+	}
+	.row .col-md-6 .fontprati{
+		margin-left: 50px;
+	}
+
+	.row .col-md-6 .logo123 .MojSlajder{
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+	}
+}
+@media (min-width:767px) {
+	.logologo {
+		display: none;
+	}	
+}
+@media (max-width:767px){
+	.row .col-md-6 .font1{
+	font-family: Arial;
+	color: black;
+	font-size: 12px;
+	margin-left: 30px;
+}
+.row .col-md-6 .font2{
+	font-family: Impact;
+	color: gray;
+	font-size: 10px;
+	margin-left: 30px;
+}
+.row .col-md-6 .font3{
+	font-family: Impact;
+	color: black;
+	font-size: 22px;
+}
+.row .vesti0{
+	font-size: 10px;
+	margin-left: 30px;
+}
+.row .col-sm-4 .a .text5{
+	font-size: 26px;
+	color: rgb(46,46,46);
+	text-decoration: none;
+}
+.row .col-sm-4 .text6{
+	font-size: 16px;
+	color: gray;
+	text-decoration: none;
+}
+.row .col-sm-4 .sub-text{
+	font-size: 14px;
+	color: rgb(46,46,46);
+	text-decoration: none;
+}
+}
+.navbar-inverse{
+	background-color: rgb(33,73,126);
+	font-family: Impact;
+	font-size: 29px;
+	border-color: rgb(33,73,126);
+	margin-top: -2px;
+}
+/* navbar */
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: rgb(72,124,197);
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: rgb(72,124,197);
+    background-color: rgb(33,73,126);
+}
+.navbar-inverse .navbar-nav{
+	margin: 5px;
+	position: relative;
+	margin-left: 170px;
+}
+.navbar-inverse .navbar-header .navbar-toggle{
+	background-color: rgb(72,124,197);
+}
+.jumbotron{
+	margin-top: -50px;
+	background-color: white;
+}
+
+.row .col-md-6 .thumbnail{
+	border-color: white;
+}
+.hide-bullets {
+	list-style:none;
+	margin-left: -40px;
+	margin-top: 20px;
+}
+.font21{
+	font-family: Arial;
+	color: black;
+	float: left;
+	margin-left: 320px;
+	margin-top: -150px;
+}
+.font22{
+	font-family: Impact;
+	color: gray;
+}
+.font23{
+	font-family: Impact;
+	color: black;
+}
+.row .col-md-6 .font1{
+	font-family: Arial;
+	color: black;
+}
+.row .col-md-6 .font2{
+	font-family: Impact;
+	color: gray;
+}
+.row .col-md-6 .font3{
+	font-family: Impact;
+	color: black;
+}
+.w3{
+    background-color: gray;
+    border: none;
+	font-family:Impact;
+    color: rgb(46,46,46);
+    padding: 14px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.MojSlajder{
+	box-shadow: 1px 1px 5px 5px gray;
+}
+.prati1{
+	position: absolute;
+	color: rgb(46,46,46);
+	font-family: Impact;
+	font-size: 40px;
+	margin-top: 345px;
+	margin-left: 100px;
+}
+.logo123{
+	position: auto;
+	margin-left: 30px;
+}
+.footer{
+	margin-top: -35px;
+	width: 100%;
+	height: 200px;
+	background: rgb(33,73,126);
+}
+.sub-text{
+	font-family: Impact;
+}
+.text5{
+	font-family: Impact;
+	font-size: 36px;
+	text-decoration: none;
+	color: rgb(46,46,46);
+}
+.text6{
+	text-decoration: none;
+	color: gray;
+}
+.sub-text{
+	text-decoration: none;
+	color: rgb(46,46,46);
+}
+.block {
+  width: 70px;
+  float: left;
+  margin-left: 45px;
+  margin-top: 280px;
+
+}
+.Istorija{
+	margin-left: 17px;
+}
+.txtIme{
+	margin-left: 51px;
+}
+.txtAdresa{
+	margin-left: 30px;
+}
+.txtTelefon{
+	margin-left: 23px;
+}
+.btnObrisi{
+	font-family: Impact;
+	font-size: 24px;
+	color: white;
+	background-color: rgb(33,73,126);
+	border-color: rgb(33,73,126);
+}
+.btnPotvrdi{
+	font-family: Impact;
+	font-size: 24px;
+	color: white;
+	background-color: rgb(33,73,126);
+	border-color: rgb(33,73,126);
+}
+a:link{
+	text-decoration: none;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+#koloselector{
+	background-color: white;
+	border-color: rgb(33,73,126);
+	font-family: Impact;
+	font-size: 20px;
+}
+.social-icon{
+	margin-left: 70px;
+	margin-top: 30px;
+}
+.fontprati{
+	margin-left: 140px;
+	font-family: Impact;
+	font-size: 30px;
+	color: rgb(46,46,46);
+}
+.pagination{
+		margin-left: 30px;
+}
+.timfont{
+	font-family: Impact;
+	font-size: 26px;
+}
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: rgb(72,124,197) url("../images/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+#login-dp{
+	margin-left: 50px;
+	margin-top: 10px;
+    min-width: 240px;
+    padding: 15px 30px 0;
+    overflow: hidden;
+    background-color:rgb(33,73,126);
+}
+#login-dp .form-group {
+    margin-bottom: 19px;
+}
+#login-bu{
+	margin-top: -13px;
+	font-size: 26px;
+	font-family: Impact;
+	color: white;
+	background-color: rgb(33,73,126);
+	border: none;
+}
+#img-bu{
+	margin-top: -12px;
+}
+.navbar-default .navbar-nav .w33{
+    border: none;
+	font-family:Impact;
+    color: gray;
+    padding: 12px 18px;
+	padding-left: 70px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+	cursor: pointer;
+}
+.dug{
+    cursor: pointer;
+}
+.dugme1{
+	width: 100%;
+	padding: 20px 8px;
+	border: 2px solid #e8eeee;
+	background-color: white;
+	text-align: center;
+}
+.dugme2{
+	width: 100%;
+	padding: 20px 8px;
+	border: 2px solid #e8eeee;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.slovo1{
+	color: white;
+	font-family: Impact;
+	font-size: 16px;
+	margin-left: -20px;
+}
+.slovo2{
+	color: white;
+	font-family: Impact;
+	font-size: 27px;
+    text-transform: uppercase;
+}
+.fontf{
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 65px;
+}
+.row44 .col-sm-4{
+	margin-top: 80px;
+}
+.row44 .col-sm-9{
+	margin-top: 40px;
+}
+.col34{
+	margin-left: -15px;
+	color: white;
+}
+.slovo3{
+	color: white;
+	font-family: Impact;
+	font-size: 28px;
+}
+.slovo4{
+	color: white;
+	font-family: Impact;
+	font-size: 16px;
+}
+.grass2{
+	background-image: url('../images/grass5.png');
+	width: 990px;
+	height: 300px;
+	margin-left: -15px;
+    color: white;
+}
+.grass2 .infofont{
+    color: white;
+}
+.grass3{
+	background-image: url('../images/grass3.png');
+	height: 360px;
+	margin-left: -15px;
+}
+.grass3 .col-sm-7{
+	margin-top: 60px;
+}
+.grass3 .col-sm-12{
+	margin-top: 40px;
+}
+.grass3 .col-sm-11{
+	margin-top: 80px;
+}
+.grass4{
+	background-image: url('../images/grass4.png');
+	width: 115%;
+	margin-left: -30px;
+	height: 360px;
+}
+.razmak{
+	 height: 50px;
+	 width: 80px;
+	 margin-left: 100px;
+}
+.razmak1{
+	margin-left: 100px;
+}
+.grb{
+	 height:130px;
+	 width: 170px;
+}
+
+@media (max-width:767px) {
+	.row44 {
+		margin-bottom: 50px;
+		width: 100px;
+		height: 100px;
+	}
+	.grass3{
+		background-image: url('../images/grass3.png');
+		height: 0px;
+		margin-left: -10px;
+	}
+	.grass3 .col-sm-7{
+		display: none;
+		margin-top: 20px;
+	}
+	.grass3 .col-sm-12{
+		display: none;
+		margin-top: 40px;
+	}
+	.grass3 .col-sm-11{
+		margin-top: 30px;
+		display: none;
+	}
+	#demo1{
+		height: 400px;
+		width: auto;
+	}
+	.dugme1{
+		width: 100%;
+		padding: 12px 4px;
+		border: 2px solid #e8eeee;
+		background-color: white;
+		text-align: center;
+	}
+	.dugme2{
+		width: 100%;
+		padding: 12px 4px;
+		border: 2px solid #e8eeee;
+		background-color: #f2f2f2;
+		text-align: center;
+	}
+	.grb{
+	 height:80px;
+	 width: 100px;
+	}
+	.slovo2{
+	color: white;
+	font-family: Impact;
+	font-size: 10px;
+	}
+	#myNavbar1{
+	margin-left: -15px;
+	}
+}
+@media (max-width:567px) {
+		.row44 {
+		width: 100px;
+		height: 100px;
+	}
+	#demo1{
+		height: 400px;
+		width: auto;
+	}
+	.korpa{
+		font-size: 5px;
+	}
+	.grass3{
+		background-image: url('../images/grass3.png');
+		height: 0px;
+		margin-left: -10px;
+	}
+	.grass3 .col-sm-7{
+		display: none;
+		margin-top: 20px;
+	}
+	.grass3 .col-sm-12{
+		display: none;
+		margin-top: 40px;
+	}
+	.grass3 .col-sm-11{
+		margin-top: 30px;
+		display: none;
+	}
+	.razmak{
+		height: 35px;
+		width: 55px;
+	}
+	.razmak1{
+		margin-left: 3px;
+	}
+}
